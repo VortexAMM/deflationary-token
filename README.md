@@ -1,4 +1,4 @@
-# Anti-Token : The first mechanical token
+# Anti-Token : The first deflationary token
 ### *This is a description of the SmartLink deflationary token in LIGO !*
 
 #### Introduction
