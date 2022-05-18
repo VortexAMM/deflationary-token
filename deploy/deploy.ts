@@ -9,7 +9,7 @@ dotenv.config(({path:__dirname+'/.env'}))
 //const rpc = "https://hangzhounet.api.tez.ie"  // "https://rpc.hangzhounet.teztnets.xyz" // HANGZOUNET
 const rpc = "https://rpc.tzstats.com" // https://mainnet.api.tez.ie // MAINNET
 
-const pk: string = "";
+const pk: string = ""; // PUT YOUR PRIVATE KEY
 const Tezos = new TezosToolkit(rpc);
 const signer = new InMemorySigner(pk);
 Tezos.setProvider({ signer: signer })
