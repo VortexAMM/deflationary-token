@@ -37,7 +37,7 @@ In order to incentivize people using the token in Smart-Contrat, a fee is taken 
 #### III. Prepare deployment of the ANTI Token
 - At root, with docker run :
 `docker run --rm -v "$PWD":"$PWD" -w "$PWD" ligolang/ligo:next compile contract contract/anti.mligo --michelson-format json > deploy/anti.json`
-- Go to deploy/deploy.js and choose your network, and put your pritave key. You can change the configuration if needed.
+- Go to deploy/deploy.js and choose your network, and put your private key. You can change the configuration if needed.
 
 #### IV. Deployment
 - In the folder /deploy, run :
