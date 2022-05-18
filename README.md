@@ -27,8 +27,8 @@ In order to incentivize people using the token in Smart-Contrat, a fee is taken 
 ## A. Installation
 
 #### I. Dependancies
-
-`npm i`
+- You need to install docker and npm first
+- `npm i`
 
 #### II. Compilation of the ANTI Token .tz
 - At root, with docker run :
