@@ -28,7 +28,7 @@ In order to incentivize people using the token in Smart-Contrat, a fee is taken 
 
 #### I. Dependancies
 
-`npm i @taquito/taquit`
+`npm i @taquito/taquito`
 `npm i @taquito/signer`
 `npm i dotenv`
 `npm i nvm`
