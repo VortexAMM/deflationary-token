@@ -28,10 +28,7 @@ In order to incentivize people using the token in Smart-Contrat, a fee is taken 
 
 #### I. Dependancies
 
-`npm i @taquito/taquito`
-`npm i @taquito/signer`
-`npm i dotenv`
-`npm i nvm`
+`npm i`
 
 #### II. Compilation of the ANTI Token .tz
 - At root, with docker run :
@@ -40,6 +37,7 @@ In order to incentivize people using the token in Smart-Contrat, a fee is taken 
 #### III. Prepare deployment of the ANTI Token
 - At root, with docker run :
 `docker run --rm -v "$PWD":"$PWD" -w "$PWD" ligolang/ligo:next compile contract contract/anti.mligo --michelson-format json > deploy/anti.json`
+- Go to deploy/deploy.js and choose your network, and put your pritave key. You can change the configuration if needed.
 
 #### IV. Deployment
 - In the folder /deploy, run :
