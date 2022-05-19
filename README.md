@@ -40,7 +40,7 @@ In order to incentivize people using the token in Smart-Contrat, a fee is taken 
 - Go to deploy/deploy.ts and choose your network, and put your private key. You can change the configuration if needed.
 
 #### IV. Deployment
-- In the folder /deploy, run :
+- At root, run :
 `tsc deploy/deploy.ts --resolveJsonModule -esModuleInterop`
 - And then when the deploy.js file is created, run :
 `node deploy/deploy.js`
